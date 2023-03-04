@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">quiz</string>
+    <string name="btn_true">true</string>
+    <string name="btn_false">false</string>
+    <string name="background_gray">#e6e6e6</string>
+    <string name="background_orange">#f9773b</string>
+
+</resources>
+
+
