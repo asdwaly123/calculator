@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/calculatorFragment">
+
+    <fragment
+        android:id="@+id/logFragment"
+        android:name="com.larissa.android.quiz.LogFragment"
+        android:label="LogFragment" >
+        <action
+            android:id="@+id/action_logFragment_to_calculatorFragment"
+            app:destination="@id/calculatorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/calculatorFragment"
+        android:name="com.larissa.android.quiz.CalculatorFragment"
+        android:label="CalculatorFragment" >
+        <action
+            android:id="@+id/action_calculatorFragment_to_logFragment"
+            app:destination="@id/logFragment" />
+    </fragment>
+</navigation>

@@ -4,6 +4,8 @@
     <string name="btn_false">false</string>
     <string name="background_gray">#e6e6e6</string>
     <string name="background_orange">#f9773b</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
 
